@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 
-const workSamples = () => {
+const WorkSamples = () => {
     return (
-
+        <div>Work Samples</div>
     );
 };
+
+export default WorkSamples;
