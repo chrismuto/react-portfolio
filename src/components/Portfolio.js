@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
+import Navbar from './navbar'
 
 const Portfolio = () => {
     return(
-    <div>
+        <div>
+            <Navbar />
         Test text
-    </div>
-    )
-}
+        </div>
+    );
+};
 
 export default Portfolio;

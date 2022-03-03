@@ -13,6 +13,30 @@
   }
 }
 
+header {
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 50%;
+}
+
+nav {
+  display: grid;
+}
+
+.header-ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-li {
+  display: inline;
+  margin: 10px;
+}
+
+h1 {
+  grid-template-columns: 1fr 50%;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
