@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Navbar = () => {
+const Navbar = ({setCurrentPage}) => {
     return (
         <header>
             <h1> Chris Muto </h1>
@@ -10,7 +10,7 @@ const Navbar = () => {
                         <a href="#about-me" className="header-a">About Me</a>
                     </li>
                     <li className="header-li">
-                        <a href="#workSamples" className="header-a">Work</a>
+                        <a onClick={() => setCurrentPage('WorkSamples')} href="#workSamples" className="header-a">Work</a>
                     </li>
                     <li className="header-li">
                         <a href="#contact" className="header-a">Contact</a>
