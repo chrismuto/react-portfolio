@@ -29,3 +29,53 @@ nav {
 h1 {
   margin-left: 2rem;
 }
+
+#workNav {
+  display: grid;
+  grid-template-columns: 1fr 95% 1fr;
+  grid-template-rows: 50vh 50vh 50vh 50vh 50vh;
+}
+
+.workCard {
+  text-decoration: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-column: 2;
+  grid-row: 0 1 2 3 4;
+  border-radius: 10px;
+  margin: 2rem;
+}
+  
+.workCard:hover {
+  opacity: 0.7;
+}
+
+.wsp {
+  font-size: 150%;
+  border-radius: 10px 0 10px 0;
+  color:aliceblue;
+  background-color: grey;
+  margin-top: 0px;
+  padding: 2px;
+  width: fit-content;
+}
+
+#helpForHire {
+  background-image: url("./help-for-hire.png"); 
+}
+
+#recipeRoulette {
+  background-image: url("./worksample2.png");
+}
+
+#weatherApp {
+  background-image: url("./worksample3.jpg");
+}
+
+#workScheduler {
+  background-image: url("./worksample4.png");
+}
+
+#commerceBackend {
+  background-image: url("./worksample5.jpg");
+}
