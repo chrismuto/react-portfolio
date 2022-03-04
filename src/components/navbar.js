@@ -7,13 +7,13 @@ const Navbar = ({setCurrentPage}) => {
             <nav>
                 <ul className="header-ul">
                     <li className="header-li">
-                        <a href="#about-me" className="header-a">About Me</a>
+                        <a onClick={() => setCurrentPage('About')} className="header-a">About Me</a>
                     </li>
                     <li className="header-li">
                         <a onClick={() => setCurrentPage('WorkSamples')} href="#workSamples" className="header-a">Work</a>
                     </li>
                     <li className="header-li">
-                        <a href="#contact" className="header-a">Contact</a>
+                        <a onClick={() => setCurrentPage('Contact')} className="header-a">Contact</a>
                     </li>
                     <li className="header-li">
                         <a href="./Resume.pdf" className="header-a">Resume</a>
