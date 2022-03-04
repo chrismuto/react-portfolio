@@ -24,6 +24,7 @@ const Portfolio = () => {
         <div>
             <Navbar setCurrentPage={setCurrentPage}/>
             {renderPage()}
+            {/* <Footer /> */}
         </div>
     );
 };
