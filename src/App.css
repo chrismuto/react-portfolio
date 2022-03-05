@@ -1,24 +1,24 @@
 header {
-  display: flex;
   display: grid;
   grid-template-columns: 1fr 50%;
   color: aliceblue;
   background-image: url("../src/backsplash.jpeg");
-}
-
-nav {
-  display: grid;
+  background-size: cover;
+  width: 100%;
 }
 
 .header-ul {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  display: block;
 }
 
 .header-li {
-  display: inline;
   margin: 1rem;
-  font-size: 1.5rem;
+  font-size: 150%;
+  list-style-type: none;
+  text-align: right;
 }
 
 .header-a {
@@ -60,6 +60,17 @@ h1 {
   width: fit-content;
 }
 
+.footer-ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.footer-ul a {
+  color: aliceblue;
+  margin: 10px;
+}
+
 #helpForHire {
   background-image: url("./help-for-hire.png"); 
 }
@@ -78,4 +89,14 @@ h1 {
 
 #commerceBackend {
   background-image: url("./worksample5.jpg");
+}
+
+@media screen and (min-width: 1000px) {
+  .workCard {
+    background-size: cover;
+  }
+
+  .header-li {
+    display: inline;
+  }
 }
