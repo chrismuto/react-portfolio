@@ -60,6 +60,10 @@ h1 {
   width: fit-content;
 }
 
+footer {
+  margin: 10px;
+}
+
 .footer-ul {
   display: flex;
   justify-content: center;
