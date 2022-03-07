@@ -75,6 +75,23 @@ footer {
   margin: 10px;
 }
 
+input {
+  display: block;
+  margin: 5px auto;
+}
+
+textarea {
+  display: block;
+  margin: 5px auto;
+  height: 20vh;
+  width: 20vh;
+}
+
+.submitDiv {
+  width: 100%;
+  text-align: center;
+}
+
 #helpForHire {
   background-image: url("./help-for-hire.png"); 
 }
