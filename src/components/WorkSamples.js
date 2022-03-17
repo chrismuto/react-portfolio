@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 
 const WorkSamples = () => {
+  document.title = "Work Samples";
   return (
     <div>
         <nav id="workNav">

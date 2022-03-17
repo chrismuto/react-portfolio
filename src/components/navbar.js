@@ -13,10 +13,7 @@ const Navbar = ({setCurrentPage}) => {
                         <a onClick={() => setCurrentPage('WorkSamples')} href="#workSamples" className="header-a">Work</a>
                     </li>
                     <li className="header-li">
-                        <a onClick={() => setCurrentPage('Contact')} className="header-a">Contact</a>
-                    </li>
-                    <li className="header-li">
-                        <a href="./Resume.pdf" className="header-a">Resume</a>
+                        <a onClick={() => setCurrentPage('Resume')} href="#Resume" className="header-a">Resume</a>
                     </li>
                 </ul>
             </nav>

@@ -1,3 +1,8 @@
+.portfolio {
+  background-image: linear-gradient(90deg, grey, white);
+  height: 100vh;
+}
+
 header {
   display: grid;
   grid-template-columns: 1fr 50%;
@@ -7,11 +12,15 @@ header {
   width: 100%;
 }
 
+.resumeImage {
+  margin-top: 1rem;
+}
+
 .header-ul {
-  display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
   display: block;
+  display: flex;
+  justify-content: end;
 }
 
 .header-li {
@@ -24,6 +33,7 @@ header {
 .header-a {
   text-decoration: none;
   color: aliceblue;
+  cursor: pointer;
 }
 
 h1 {
