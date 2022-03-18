@@ -1,44 +1,15 @@
-.portfolio {
-  background-image: linear-gradient(90deg, grey, white);
-  height: 100vh;
-}
-
-header {
-  display: grid;
-  grid-template-columns: 1fr 50%;
-  color: aliceblue;
-  background-image: url("../src/backsplash.jpeg");
+body {
+  background-image: linear-gradient(rgba(209, 209, 209, 0.8) ,rgba(209, 209, 209, 0.8)), url('./assets/backsplash3.jpg');
   background-size: cover;
-  width: 100%;
 }
 
 .resumeImage {
   margin-top: 1rem;
 }
 
-.header-ul {
-  flex-wrap: wrap;
-  display: block;
-  display: flex;
-  justify-content: end;
-}
-
-.header-li {
-  margin: 1rem;
-  font-size: 150%;
-  list-style-type: none;
-  text-align: right;
-}
-
-.header-a {
-  text-decoration: none;
-  color: aliceblue;
-  cursor: pointer;
-}
-
-h1 {
+/* h1 {
   margin-left: 2rem;
-}
+} */
 
 #workNav {
   display: grid;
@@ -71,18 +42,26 @@ h1 {
 }
 
 footer {
-  margin: 10px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin-top: 10px;
+  position: relative;
+  bottom: 0px;
+  right: 0px;
 }
 
 .footer-ul {
   display: flex;
-  justify-content: center;
   list-style-type: none;
+}
+
+.footer-ul.li {
+  margin: 10px 20px;
 }
 
 .footer-ul a {
   color: aliceblue;
-  margin: 10px;
 }
 
 input {
@@ -102,7 +81,7 @@ textarea {
   text-align: center;
 }
 
-#helpForHire {
+/* #helpForHire {
   background-image: url("./help-for-hire.png"); 
 }
 
@@ -120,7 +99,7 @@ textarea {
 
 #commerceBackend {
   background-image: url("./worksample5.jpg");
-}
+} */
 
 @media screen and (min-width: 1000px) {
   .workCard {

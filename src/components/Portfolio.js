@@ -1,10 +1,15 @@
 import React, { useState } from "react";
-import Navbar from "./navbar";
+import Navigate from "./navbar";
 import Resume from "./Resume";
 import About from "./About";
 import WorkSamples from "./WorkSamples";
 import Footer from "./Footer";
 
+const styles = {
+  page: {
+    fontFamily: "roboto, sans-serif",
+},
+}
 
 const Portfolio = () => {
   const [currentPage, setCurrentPage] = useState("About");
@@ -21,8 +26,8 @@ const Portfolio = () => {
     }
   };
   return (
-    <div className="root">
-      <Navbar setCurrentPage={setCurrentPage} />
+    <div className="root" style={styles.page}>
+      <Navigate setCurrentPage={setCurrentPage} />
       {renderPage()}
       <Footer />
     </div>
