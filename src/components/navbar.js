@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { Navbar, NavLink, Nav } from "react-bootstrap";
+import { NavLink, Nav } from "react-bootstrap";
 
 const Navigate = ({ setCurrentPage }) => {
   return (
-      <Nav variant="tabs" className="align-items-center border-dark mx-3">
+      <Nav variant="tabs" className="align-items-center border-dark mx-3 fs-5">
         <Nav.Item>
           <NavLink onClick={() => setCurrentPage("About")} className="text-black h-100 p-4 border-none">About Me</NavLink>
         </Nav.Item>

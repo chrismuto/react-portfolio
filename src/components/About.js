@@ -6,13 +6,17 @@ const styles = {
     cardBackground: {
         backgroundColor: "rgba(125, 125, 125, 0.2)",
     },
+    cardBackgroundShort: {
+        backgroundColor: "rgba(125, 125, 125, 0.2)",
+        height: "50%",
+    },
 }
 
 const About = () => {
-  document.title = "Resume";
+  document.title = "About Me";
   return (
     <div className="d-flex justify-content-center">
-      <Card className="m-5 col-3 aboutCard" style={styles.cardBackground}>
+      <Card className="m-5 col-3" style={styles.cardBackground}>
         <Card.Img variant="top" src={profile} />
         <Card.Body>
           <Card.Title className="text-center">Chris Muto</Card.Title>
@@ -28,7 +32,7 @@ const About = () => {
           <ListGroupItem style={styles.cardBackground}>Location: San Diego</ListGroupItem>
         </ListGroup>
       </Card>
-      <Card className="m-5 col-5" style={styles.cardBackground}>
+      <Card className="m-5 col-5" style={styles.cardBackgroundShort}>
         <Card.Body>
           <Card.Title className="text-center m-3 border-bottom border-dark aboutCard">Technical Proficiencies</Card.Title>
           <Card.Text className="d-flex justify-content-around fs-5">
