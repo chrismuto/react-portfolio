@@ -4,10 +4,10 @@ import profile from "../assets/profile.jpg";
 
 const styles = {
     cardBackground: {
-        backgroundColor: "rgba(125, 125, 125, 0.2)",
+        backgroundColor: "rgba(255, 255, 255, 0.7)",
     },
     cardBackgroundShort: {
-        backgroundColor: "rgba(125, 125, 125, 0.2)",
+        backgroundColor: "rgba(255, 255, 255, 0.7)",
         height: "50%",
     },
 }

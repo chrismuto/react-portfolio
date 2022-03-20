@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(rgba(209, 209, 209, 0.8) ,rgba(209, 209, 209, 0.8)), url('./assets/backsplash.png');
+  background-image: linear-gradient(rgba(209, 209, 209, 0.5) ,rgba(209, 209, 209, 0.5)), url('./assets/backsplash.png');
   background-size: cover;
 }
 

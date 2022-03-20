@@ -1,9 +1,11 @@
 import React from "react";
-import { Card, Button } from "react-bootstrap";
+import { Card, Button, NavLink } from "react-bootstrap";
 import helpForHire from "../assets/helpforhire.jpg";
 import recipeRoulette from "../assets/recipe-roulette.jpg";
 import weather from "../assets/weather-forecast.jpeg";
 import noteTaker from "../assets/noteTaker.jpeg"
+import socialMedia from "../assets/social-media.jpg"
+
 const WorkSamples = () => {
   document.title = "Work Samples";
   return (
@@ -19,8 +21,12 @@ const WorkSamples = () => {
           <Card.Text>CSS, Javascript, mongoDB, Mongoose, Node.js, Express</Card.Text>
         </Card.Body>
         <Card.Body className="d-flex justify-content-between">
+          <NavLink href="https://github.com/chrismuto/Help-for-Hire">
           <Button variant="primary">Github repo</Button>
+          </NavLink>
+          <NavLink href="https://protected-taiga-32909.herokuapp.com/">
           <Button variant="success">Live demo</Button>
+          </NavLink>
         </Card.Body>
       </Card>
       <Card className="col-11 col-lg-3 d-inline-flex m-3">
@@ -29,15 +35,19 @@ const WorkSamples = () => {
           <Card.Title>Recipe Roulette</Card.Title>
           <Card.Text>
             This app pulls a random recipe from an API and displays the recipe,
-            ingredients list and associated tutorial video
+            ingredients list and associated tutorial video.
           </Card.Text>
           <Card.Text>
             CSS, Javascript, jQuery, RESTful API, local storage
           </Card.Text>
         </Card.Body>
         <Card.Body className="d-flex justify-content-between">
+        <NavLink href="https://github.com/chrismuto/Recipe-roulette">
           <Button variant="primary">Github repo</Button>
+          </NavLink>
+          <NavLink href="https://chrismuto.github.io/Recipe-roulette/">
           <Button variant="success">Live demo</Button>
+          </NavLink>
         </Card.Body>
       </Card>
       <Card className="col-11 col-lg-3 d-inline-flex m-3">
@@ -46,13 +56,17 @@ const WorkSamples = () => {
           <Card.Title>Weather Forecaster</Card.Title>
           <Card.Text>
             A weather forecasting app that can find the current and five day
-            forecasts for any city using the openweathermap api
+            forecasts for any city using two openweathermap APIs to accurately locate weather.
           </Card.Text>
           <Card.Text>CSS, Javascript, RESTful API</Card.Text>
         </Card.Body>
         <Card.Body className="d-flex justify-content-between">
+        <NavLink href="https://github.com/chrismuto/weatherapp">
           <Button variant="primary">Github repo</Button>
+          </NavLink>
+          <NavLink href="https://chrismuto.github.io/weatherapp/">
           <Button variant="success">Live demo</Button>
+          </NavLink>
         </Card.Body>
       </Card>
       <Card className="col-11 col-lg-3 d-inline-flex m-3">
@@ -60,59 +74,38 @@ const WorkSamples = () => {
         <Card.Body>
           <Card.Title>PWA text editor</Card.Title>
           <Card.Text>
-            This is a text editor that uses a progessive web app service worker to allow a user to download the app for offline work
+            This is a text editor that uses a progessive web app service worker to allow a user to download the app for offline work.
           </Card.Text>
           <Card.Text>NodeJS, IDB, Express, Babel, workbox</Card.Text>
         </Card.Body>
         <Card.Body className="d-flex justify-content-between">
+        <NavLink href="https://github.com/chrismuto/pwa-text-editor">
           <Button variant="primary">Github repo</Button>
+          </NavLink>
+          <NavLink href="https://fast-harbor-57378.herokuapp.com/">
           <Button variant="success">Live demo</Button>
+          </NavLink>
         </Card.Body>
       </Card>
       <Card className="col-11 col-lg-3 d-inline-flex m-3">
-        <Card.Img variant="top" src={noteTaker} />
+        <Card.Img variant="top" src={socialMedia} />
         <Card.Body>
           <Card.Title>PWA text editor</Card.Title>
           <Card.Text>
-            This is a text editor that uses a progessive web app service worker to allow a user to download the app for offline work
+            Social media app that allows user to create accounts, make posts and react to other users posts.
           </Card.Text>
-          <Card.Text>NodeJS, IDB, Express, Babel, workbox</Card.Text>
+          <Card.Text>NodeJS, Express, Javascript, mongoDB, Mongoose</Card.Text>
         </Card.Body>
         <Card.Body className="d-flex justify-content-between">
+        <NavLink href="https://github.com/chrismuto/Social-network-API">
           <Button variant="primary">Github repo</Button>
-          <Button variant="success">Live demo</Button>
+        </NavLink>
+          <NavLink href="https://drive.google.com/file/d/1a1rTSxzWZ3xsoU3D29KS5QUVCs89wfW4/view">
+          <Button variant="success">Video demo</Button>
+          </NavLink>
         </Card.Body>
       </Card>
     </div>
-    // <div>
-    //     <nav id="workNav">
-    //   <a className="workCard" id="helpForHire" href="https://protected-taiga-32909.herokuapp.com/" target="_blank">
-    //     <div>
-    //       <p className="wsp">Help for Hire</p>
-    //     </div>
-    //   </a>
-    //   <a className="workCard"  id="recipeRoulette" href="https://chrismuto.github.io/project-01/" target="_blank">
-    //     <div>
-    //       <p className="wsp">Recipe Roulette</p>
-    //     </div>
-    //   </a>
-    //   <a className="workCard" id="weatherApp" href="https://chrismuto.github.io/weatherapp/" target="_blank">
-    //     <div>
-    //       <p className="wsp">Weather Forecast</p>
-    //     </div>
-    //   </a>
-    //   <a className="workCard" id="workScheduler" href="https://chrismuto.github.io/work-day-scheduler/" target="_blank">
-    //     <div>
-    //       <p className="wsp">Workday Planner</p>
-    //     </div>
-    //   </a>
-    //   <a className="workCard" id="commerceBackend" href="https://github.com/chrismuto/commerce-backend" target="_blank">
-    //     <div>
-    //       <p className="wsp">E-commerce platform</p>
-    //     </div>
-    //   </a>
-    //   </nav>
-    // </div>
   );
 };
 
