@@ -44,7 +44,7 @@ const About = () => {
                 <li>Javascript</li>
                 <li>Jquery</li>
                 <li>Express</li>
-                <li>Node.js</li>
+                <li>NodeJS</li>
                 <li>React</li>
                 <li>Handlebars</li>
                 <li>RESTful APIs</li>
