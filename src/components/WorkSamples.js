@@ -90,7 +90,7 @@ const WorkSamples = () => {
       <Card className="col-11 col-lg-3 d-inline-flex m-3">
         <Card.Img variant="top" src={socialMedia} />
         <Card.Body>
-          <Card.Title>PWA text editor</Card.Title>
+          <Card.Title>Post a Thought</Card.Title>
           <Card.Text>
             Social media app that allows user to create accounts, make posts and react to other users posts.
           </Card.Text>
