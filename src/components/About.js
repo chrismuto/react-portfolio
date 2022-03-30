@@ -35,32 +35,28 @@ const About = () => {
       <Card className="m-5 col-5" style={styles.cardBackgroundShort}>
         <Card.Body>
           <Card.Title className="text-center m-3 border-bottom border-dark aboutCard">Technical Proficiencies</Card.Title>
-          <Card.Text className="d-flex justify-content-around fs-5">
-            <ul>
-                <li>CSS</li>
-                <li>w3CSS</li>
-                <li>Bootstrap</li>
-                <li>React-bootstrap</li>
-                <li>Javascript</li>
-                <li>Jquery</li>
-                <li>Express</li>
-                <li>NodeJS</li>
-                <li>React</li>
-                <li>Handlebars</li>
-                <li>RESTful APIs</li>
-            </ul>
-            <ul>
-                <li>mySQL</li>
-                <li>noSQL</li>
-                <li>sequelize</li>
-                <li>MongoDB</li>
-                <li>Mongoose</li>
-                <li>Inquirer</li>
-                <li>Jest</li>
-                <li>GraphQL</li>
-                <li>Insomnia</li>
-                <li>Apollo Sandbox</li>
-            </ul>
+          <Card.Text className="d-flex justify-content-around">
+                CSS |
+                w3CSS |
+                Bootstrap |
+                React-bootstrap |
+                Javascript |
+                Jquery |
+                Express |
+                NodeJS |
+                React |
+                Handlebars |
+                RESTful APIs |
+                mySQL |
+                noSQL |
+                sequelize |
+                MongoDB |
+                Mongoose |
+                Inquirer |
+                Jest |
+                GraphQL |
+                Insomnia |
+                Apollo Sandbox
           </Card.Text>
         </Card.Body>
       </Card>
