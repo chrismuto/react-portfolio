@@ -4,7 +4,7 @@ import helpForHire from "../assets/helpforhire.jpg";
 import recipeRoulette from "../assets/recipe-roulette.jpg";
 import weather from "../assets/weather-forecast.jpeg";
 import noteTaker from "../assets/noteTaker.jpeg"
-import socialMedia from "../assets/social-media.jpg"
+import happyHour from "../assets/happyhour.jpg"
 
 const WorkSamples = () => {
   document.title = "Work Samples";
@@ -88,20 +88,20 @@ const WorkSamples = () => {
         </Card.Body>
       </Card>
       <Card className="col-11 col-lg-3 d-inline-flex m-3">
-        <Card.Img variant="top" src={socialMedia} />
+        <Card.Img variant="top" src={happyHour} />
         <Card.Body>
-          <Card.Title>Post a Thought</Card.Title>
+          <Card.Title>Happy Hour</Card.Title>
           <Card.Text>
-            Social media app that allows user to create accounts, make posts and react to other users posts.
+            Search app that finds happy hour specials using graphQL request and a React frontend
           </Card.Text>
-          <Card.Text>NodeJS, Express, Javascript, mongoDB, Mongoose</Card.Text>
+          <Card.Text>MUI, React, Javascript, mongoDB, graphQL</Card.Text>
         </Card.Body>
         <Card.Body className="d-flex justify-content-between">
-        <NavLink href="https://github.com/chrismuto/Social-network-API">
+        <NavLink href="https://github.com/MaestroLuu/Happy-Hour">
           <Button variant="primary">Github repo</Button>
         </NavLink>
-          <NavLink href="https://drive.google.com/file/d/1a1rTSxzWZ3xsoU3D29KS5QUVCs89wfW4/view">
-          <Button variant="success">Video demo</Button>
+          <NavLink href="https://project-happy-hour.herokuapp.com/">
+          <Button variant="success">Live demo</Button>
           </NavLink>
         </Card.Body>
       </Card>
