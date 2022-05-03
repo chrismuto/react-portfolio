@@ -1,23 +1,22 @@
 import React, { useState } from "react";
-import resumeImage from "../assets/resume.png";
+import resume from "../assets/resume.pdf";
 
 const styles = {
-  resumeImage: {
-    width: "75vh",
-    margin: "auto",
+  resumePDF: {
+    height: "100vh",
+    textAlign: "center",
+    marginTop: "2%",
   },
 };
 
 const Resume = () => {
   document.title = "Resume";
   return (
-    <div>
-      <div className="resumeIframe" style={styles.resumeImage}>
-        <a href={resumeImage} download>
-          <img alt="Resume" src={resumeImage} className="resumeImage" />
+      <div className="resumeIframe" style={styles.resumePDF}>
+        <a href={resume} download>
+          <iframe title="Resume" src={`${resume}#view=fitH`} height="100%" width="60%" />
         </a>
       </div>
-    </div>
   );
 };
 

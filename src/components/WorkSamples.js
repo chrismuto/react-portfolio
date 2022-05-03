@@ -4,7 +4,7 @@ import helpForHire from "../assets/helpforhire.jpg";
 import recipeRoulette from "../assets/recipe-roulette.jpg";
 import weather from "../assets/weather-forecast.jpeg";
 import noteTaker from "../assets/noteTaker.jpeg"
-import happyHour from "../assets/happyhour.jpg"
+import happyHour from "../assets/happyhour.png"
 
 const WorkSamples = () => {
   document.title = "Work Samples";
