@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.9fa79df8.css",
+    "main.js": "/react-portfolio/static/js/main.e4a794db.js",
+    "static/media/backsplash.png": "/react-portfolio/static/media/backsplash.c3ac172ea68a5b7ee08d.png",
+    "static/media/happyhour.png": "/react-portfolio/static/media/happyhour.511a109402673016703d.png",
+    "static/media/noteTaker.jpeg": "/react-portfolio/static/media/noteTaker.b65ac195a360868f81d6.jpeg",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.41e838e5d1c4a223bc22.pdf",
+    "static/media/helpforhire.jpg": "/react-portfolio/static/media/helpforhire.26a5f603210bd0597ef7.jpg",
+    "static/media/recipe-roulette.jpg": "/react-portfolio/static/media/recipe-roulette.b7254e3603d3a0777c25.jpg",
+    "static/media/weather-forecast.jpeg": "/react-portfolio/static/media/weather-forecast.999f1bc98c2c68dfd757.jpeg",
+    "static/media/profile.jpg": "/react-portfolio/static/media/profile.76d5859baeee11c8642f.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.9fa79df8.css.map": "/react-portfolio/static/css/main.9fa79df8.css.map",
+    "main.e4a794db.js.map": "/react-portfolio/static/js/main.e4a794db.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fa79df8.css",
+    "static/js/main.e4a794db.js"
+  ]
+}
